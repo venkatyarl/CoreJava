@@ -1,4 +1,4 @@
-package com.davita.common.dates;
+package com.venkatyarlagadda.datetime;
 
 import java.time.Instant;
 import java.time.ZoneId;
@@ -6,10 +6,10 @@ import java.time.ZonedDateTime;
 import java.util.HashSet;
 import java.util.Set;
 
-public class DavitaDates {
+public class Dates {
 
 	public static void main(String[] args) {
-		DavitaDates dd = new DavitaDates();
+		Dates dd = new Dates();
 		ZoneId localZoneId = ZonedDateTime.now().getZone();
 		System.out.println("Local Zone Id:\t" + localZoneId);
 		ZonedDateTime zonedDateTime = dd.getCurrentLocalZonedDateTime();
